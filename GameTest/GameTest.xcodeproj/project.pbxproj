@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA2FDF651501470D006E3447 /* tileMapTest1.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA2FDF621501470D006E3447 /* tileMapTest1.plist */; };
+		AA2FDF661501470D006E3447 /* tileMapTest2.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA2FDF631501470D006E3447 /* tileMapTest2.plist */; };
+		AA2FDF671501470D006E3447 /* tileMapTest3.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA2FDF641501470D006E3447 /* tileMapTest3.plist */; };
+		AA858B81150128020052829E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA858B80150128020052829E /* UIKit.framework */; };
+		AA858B83150128020052829E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA858B82150128020052829E /* Foundation.framework */; };
+		AA858B85150128020052829E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA858B84150128020052829E /* CoreGraphics.framework */; };
+		AA858B8B150128020052829E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA858B89150128020052829E /* InfoPlist.strings */; };
+		AA858B8D150128020052829E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA858B8C150128020052829E /* main.m */; };
+		AA858B91150128020052829E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA858B90150128020052829E /* AppDelegate.m */; };
+		AA858B94150128020052829E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA858B92150128020052829E /* MainStoryboard.storyboard */; };
+		AA858B97150128020052829E /* GameTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA858B96150128020052829E /* GameTestViewController.m */; };
+		AA858B9F150128020052829E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA858B9E150128020052829E /* SenTestingKit.framework */; };
+		AA858BA0150128020052829E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA858B80150128020052829E /* UIKit.framework */; };
+		AA858BA1150128020052829E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA858B82150128020052829E /* Foundation.framework */; };
+		AA858BA9150128030052829E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA858BA7150128030052829E /* InfoPlist.strings */; };
+		AA858BAC150128030052829E /* GameTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA858BAB150128030052829E /* GameTestTests.m */; };
+		AA858BB7150128680052829E /* TileMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA858BB6150128680052829E /* TileMapViewController.m */; };
+		AA858BBD150128CA0052829E /* slime_healthy.PNG in Resources */ = {isa = PBXBuildFile; fileRef = AA858BB9150128CA0052829E /* slime_healthy.PNG */; };
+		AA858BBE150128CA0052829E /* testmap.PNG in Resources */ = {isa = PBXBuildFile; fileRef = AA858BBC150128CA0052829E /* testmap.PNG */; };
+		AA858BC0150129470052829E /* testLevel.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA858BBF150129470052829E /* testLevel.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA858BA2150128020052829E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA858B73150128020052829E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA858B7B150128020052829E;
+			remoteInfo = GameTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA2FDF621501470D006E3447 /* tileMapTest1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tileMapTest1.plist; sourceTree = "<group>"; };
+		AA2FDF631501470D006E3447 /* tileMapTest2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tileMapTest2.plist; sourceTree = "<group>"; };
+		AA2FDF641501470D006E3447 /* tileMapTest3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tileMapTest3.plist; sourceTree = "<group>"; };
+		AA858B7C150128020052829E /* GameTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA858B80150128020052829E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA858B82150128020052829E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA858B84150128020052829E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA858B88150128020052829E /* GameTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameTest-Info.plist"; sourceTree = "<group>"; };
+		AA858B8A150128020052829E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA858B8C150128020052829E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA858B8E150128020052829E /* GameTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameTest-Prefix.pch"; sourceTree = "<group>"; };
+		AA858B8F150128020052829E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA858B90150128020052829E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA858B93150128020052829E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AA858B95150128020052829E /* GameTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameTestViewController.h; sourceTree = "<group>"; };
+		AA858B96150128020052829E /* GameTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameTestViewController.m; sourceTree = "<group>"; };
+		AA858B9D150128020052829E /* GameTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA858B9E150128020052829E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AA858BA6150128030052829E /* GameTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameTestTests-Info.plist"; sourceTree = "<group>"; };
+		AA858BA8150128030052829E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA858BAA150128030052829E /* GameTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameTestTests.h; sourceTree = "<group>"; };
+		AA858BAB150128030052829E /* GameTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameTestTests.m; sourceTree = "<group>"; };
+		AA858BB5150128680052829E /* TileMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileMapViewController.h; sourceTree = "<group>"; };
+		AA858BB6150128680052829E /* TileMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileMapViewController.m; sourceTree = "<group>"; };
+		AA858BB9150128CA0052829E /* slime_healthy.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slime_healthy.PNG; sourceTree = "<group>"; };
+		AA858BBC150128CA0052829E /* testmap.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testmap.PNG; sourceTree = "<group>"; };
+		AA858BBF150129470052829E /* testLevel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = testLevel.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA858B79150128020052829E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA858B81150128020052829E /* UIKit.framework in Frameworks */,
+				AA858B83150128020052829E /* Foundation.framework in Frameworks */,
+				AA858B85150128020052829E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA858B99150128020052829E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA858B9F150128020052829E /* SenTestingKit.framework in Frameworks */,
+				AA858BA0150128020052829E /* UIKit.framework in Frameworks */,
+				AA858BA1150128020052829E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA858B71150128020052829E = {
+			isa = PBXGroup;
+			children = (
+				AA858B86150128020052829E /* GameTest */,
+				AA858BA4150128020052829E /* GameTestTests */,
+				AA858B7F150128020052829E /* Frameworks */,
+				AA858B7D150128020052829E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA858B7D150128020052829E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA858B7C150128020052829E /* GameTest.app */,
+				AA858B9D150128020052829E /* GameTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA858B7F150128020052829E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA858B80150128020052829E /* UIKit.framework */,
+				AA858B82150128020052829E /* Foundation.framework */,
+				AA858B84150128020052829E /* CoreGraphics.framework */,
+				AA858B9E150128020052829E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA858B86150128020052829E /* GameTest */ = {
+			isa = PBXGroup;
+			children = (
+				AA858B8F150128020052829E /* AppDelegate.h */,
+				AA858B90150128020052829E /* AppDelegate.m */,
+				AA858B92150128020052829E /* MainStoryboard.storyboard */,
+				AA858B95150128020052829E /* GameTestViewController.h */,
+				AA858B96150128020052829E /* GameTestViewController.m */,
+				AA858BB5150128680052829E /* TileMapViewController.h */,
+				AA858BB6150128680052829E /* TileMapViewController.m */,
+				AA858BB8150128CA0052829E /* Resources */,
+				AA858BBA150128CA0052829E /* Stages */,
+				AA858B87150128020052829E /* Supporting Files */,
+			);
+			path = GameTest;
+			sourceTree = "<group>";
+		};
+		AA858B87150128020052829E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA858B88150128020052829E /* GameTest-Info.plist */,
+				AA858B89150128020052829E /* InfoPlist.strings */,
+				AA858B8C150128020052829E /* main.m */,
+				AA858B8E150128020052829E /* GameTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA858BA4150128020052829E /* GameTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA858BAA150128030052829E /* GameTestTests.h */,
+				AA858BAB150128030052829E /* GameTestTests.m */,
+				AA2FDF621501470D006E3447 /* tileMapTest1.plist */,
+				AA2FDF631501470D006E3447 /* tileMapTest2.plist */,
+				AA2FDF641501470D006E3447 /* tileMapTest3.plist */,
+				AA858BA5150128030052829E /* Supporting Files */,
+			);
+			path = GameTestTests;
+			sourceTree = "<group>";
+		};
+		AA858BA5150128030052829E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA858BA6150128030052829E /* GameTestTests-Info.plist */,
+				AA858BA7150128030052829E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA858BB8150128CA0052829E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA858BB9150128CA0052829E /* slime_healthy.PNG */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA858BBA150128CA0052829E /* Stages */ = {
+			isa = PBXGroup;
+			children = (
+				AA858BBB150128CA0052829E /* testStage */,
+			);
+			path = Stages;
+			sourceTree = "<group>";
+		};
+		AA858BBB150128CA0052829E /* testStage */ = {
+			isa = PBXGroup;
+			children = (
+				AA858BBC150128CA0052829E /* testmap.PNG */,
+				AA858BBF150129470052829E /* testLevel.plist */,
+			);
+			path = testStage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA858B7B150128020052829E /* GameTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA858BAF150128030052829E /* Build configuration list for PBXNativeTarget "GameTest" */;
+			buildPhases = (
+				AA858B78150128020052829E /* Sources */,
+				AA858B79150128020052829E /* Frameworks */,
+				AA858B7A150128020052829E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameTest;
+			productName = GameTest;
+			productReference = AA858B7C150128020052829E /* GameTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA858B9C150128020052829E /* GameTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA858BB2150128030052829E /* Build configuration list for PBXNativeTarget "GameTestTests" */;
+			buildPhases = (
+				AA858B98150128020052829E /* Sources */,
+				AA858B99150128020052829E /* Frameworks */,
+				AA858B9A150128020052829E /* Resources */,
+				AA858B9B150128020052829E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA858BA3150128020052829E /* PBXTargetDependency */,
+			);
+			name = GameTestTests;
+			productName = GameTestTests;
+			productReference = AA858B9D150128020052829E /* GameTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA858B73150128020052829E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University of Singapore";
+			};
+			buildConfigurationList = AA858B76150128020052829E /* Build configuration list for PBXProject "GameTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA858B71150128020052829E;
+			productRefGroup = AA858B7D150128020052829E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA858B7B150128020052829E /* GameTest */,
+				AA858B9C150128020052829E /* GameTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA858B7A150128020052829E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA858B8B150128020052829E /* InfoPlist.strings in Resources */,
+				AA858B94150128020052829E /* MainStoryboard.storyboard in Resources */,
+				AA858BBD150128CA0052829E /* slime_healthy.PNG in Resources */,
+				AA858BBE150128CA0052829E /* testmap.PNG in Resources */,
+				AA858BC0150129470052829E /* testLevel.plist in Resources */,
+				AA2FDF651501470D006E3447 /* tileMapTest1.plist in Resources */,
+				AA2FDF661501470D006E3447 /* tileMapTest2.plist in Resources */,
+				AA2FDF671501470D006E3447 /* tileMapTest3.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA858B9A150128020052829E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA858BA9150128030052829E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA858B9B150128020052829E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA858B78150128020052829E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA858B8D150128020052829E /* main.m in Sources */,
+				AA858B91150128020052829E /* AppDelegate.m in Sources */,
+				AA858B97150128020052829E /* GameTestViewController.m in Sources */,
+				AA858BB7150128680052829E /* TileMapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA858B98150128020052829E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA858BAC150128030052829E /* GameTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA858BA3150128020052829E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA858B7B150128020052829E /* GameTest */;
+			targetProxy = AA858BA2150128020052829E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA858B89150128020052829E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA858B8A150128020052829E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA858B92150128020052829E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA858B93150128020052829E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		AA858BA7150128030052829E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA858BA8150128030052829E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA858BAD150128030052829E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AA858BAE150128030052829E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA858BB0150128030052829E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameTest/GameTest-Prefix.pch";
+				INFOPLIST_FILE = "GameTest/GameTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA858BB1150128030052829E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameTest/GameTest-Prefix.pch";
+				INFOPLIST_FILE = "GameTest/GameTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AA858BB3150128030052829E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GameTest.app/GameTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameTest/GameTest-Prefix.pch";
+				INFOPLIST_FILE = "GameTestTests/GameTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AA858BB4150128030052829E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GameTest.app/GameTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameTest/GameTest-Prefix.pch";
+				INFOPLIST_FILE = "GameTestTests/GameTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA858B76150128020052829E /* Build configuration list for PBXProject "GameTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA858BAD150128030052829E /* Debug */,
+				AA858BAE150128030052829E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA858BAF150128030052829E /* Build configuration list for PBXNativeTarget "GameTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA858BB0150128030052829E /* Debug */,
+				AA858BB1150128030052829E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA858BB2150128030052829E /* Build configuration list for PBXNativeTarget "GameTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA858BB3150128030052829E /* Debug */,
+				AA858BB4150128030052829E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA858B73150128020052829E /* Project object */;
+}

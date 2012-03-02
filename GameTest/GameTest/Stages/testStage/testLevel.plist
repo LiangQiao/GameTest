@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mapName</key>
+	<string>testmap.PNG</string>
+	<key>numRows</key>
+	<integer>10</integer>
+	<key>numColumns</key>
+	<integer>10</integer>
+	<key>width</key>
+	<integer>1500</integer>
+	<key>height</key>
+	<string>1500</string>
+	<key>wayPoints</key>
+	<array>
+		<integer>11</integer>
+		<integer>16</integer>
+		<integer>76</integer>
+		<integer>79</integer>
+		<integer>49</integer>
+		<integer>50</integer>
+	</array>
+	<key>obstacles</key>
+	<array/>
+</dict>
+</plist>
