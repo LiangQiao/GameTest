@@ -10,6 +10,7 @@
 		AA2FDF651501470D006E3447 /* tileMapTest1.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA2FDF621501470D006E3447 /* tileMapTest1.plist */; };
 		AA2FDF661501470D006E3447 /* tileMapTest2.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA2FDF631501470D006E3447 /* tileMapTest2.plist */; };
 		AA2FDF671501470D006E3447 /* tileMapTest3.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA2FDF641501470D006E3447 /* tileMapTest3.plist */; };
+		AA2FDF7615015435006E3447 /* TileMapTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2FDF7515015435006E3447 /* TileMapTest.m */; };
 		AA858B81150128020052829E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA858B80150128020052829E /* UIKit.framework */; };
 		AA858B83150128020052829E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA858B82150128020052829E /* Foundation.framework */; };
 		AA858B85150128020052829E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA858B84150128020052829E /* CoreGraphics.framework */; };
@@ -43,6 +44,8 @@
 		AA2FDF621501470D006E3447 /* tileMapTest1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tileMapTest1.plist; sourceTree = "<group>"; };
 		AA2FDF631501470D006E3447 /* tileMapTest2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tileMapTest2.plist; sourceTree = "<group>"; };
 		AA2FDF641501470D006E3447 /* tileMapTest3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tileMapTest3.plist; sourceTree = "<group>"; };
+		AA2FDF7415015435006E3447 /* TileMapTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileMapTest.h; sourceTree = "<group>"; };
+		AA2FDF7515015435006E3447 /* TileMapTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileMapTest.m; sourceTree = "<group>"; };
 		AA858B7C150128020052829E /* GameTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA858B80150128020052829E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA858B82150128020052829E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -156,6 +159,8 @@
 			children = (
 				AA858BAA150128030052829E /* GameTestTests.h */,
 				AA858BAB150128030052829E /* GameTestTests.m */,
+				AA2FDF7415015435006E3447 /* TileMapTest.h */,
+				AA2FDF7515015435006E3447 /* TileMapTest.m */,
 				AA2FDF621501470D006E3447 /* tileMapTest1.plist */,
 				AA2FDF631501470D006E3447 /* tileMapTest2.plist */,
 				AA2FDF641501470D006E3447 /* tileMapTest3.plist */,
@@ -315,6 +320,7 @@
 				AA858B91150128020052829E /* AppDelegate.m in Sources */,
 				AA858B97150128020052829E /* GameTestViewController.m in Sources */,
 				AA858BB7150128680052829E /* TileMapViewController.m in Sources */,
+				AA2FDF7615015435006E3447 /* TileMapTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
