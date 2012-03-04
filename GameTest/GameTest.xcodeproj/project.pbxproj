@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8799D6FC15038FF300B7027C /* ETDGameEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8799D6FB15038FF300B7027C /* ETDGameEngine.m */; };
 		AA2FDF651501470D006E3447 /* tileMapTest1.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA2FDF621501470D006E3447 /* tileMapTest1.plist */; };
 		AA2FDF661501470D006E3447 /* tileMapTest2.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA2FDF631501470D006E3447 /* tileMapTest2.plist */; };
 		AA2FDF671501470D006E3447 /* tileMapTest3.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA2FDF641501470D006E3447 /* tileMapTest3.plist */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8799D6FA15038FF300B7027C /* ETDGameEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETDGameEngine.h; sourceTree = "<group>"; };
+		8799D6FB15038FF300B7027C /* ETDGameEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETDGameEngine.m; sourceTree = "<group>"; };
 		AA2FDF621501470D006E3447 /* tileMapTest1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tileMapTest1.plist; sourceTree = "<group>"; };
 		AA2FDF631501470D006E3447 /* tileMapTest2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tileMapTest2.plist; sourceTree = "<group>"; };
 		AA2FDF641501470D006E3447 /* tileMapTest3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tileMapTest3.plist; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 				AA858BB8150128CA0052829E /* Resources */,
 				AA858BBA150128CA0052829E /* Stages */,
 				AA858B87150128020052829E /* Supporting Files */,
+				8799D6FA15038FF300B7027C /* ETDGameEngine.h */,
+				8799D6FB15038FF300B7027C /* ETDGameEngine.m */,
 			);
 			path = GameTest;
 			sourceTree = "<group>";
@@ -315,6 +320,7 @@
 				AA858B91150128020052829E /* AppDelegate.m in Sources */,
 				AA858B97150128020052829E /* GameTestViewController.m in Sources */,
 				AA858BB7150128680052829E /* TileMapViewController.m in Sources */,
+				8799D6FC15038FF300B7027C /* ETDGameEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
