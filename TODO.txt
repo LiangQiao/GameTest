@@ -1,0 +1,34 @@
+Trung : Implement creep, tower.
+Classes: ETDCreep, ETDTower
+- Creep Animation
+- Tower Animation
+- Towers: Initialize a new Projectile.
+- Creep: updateStatus (From gameEngine)
+
+API ETDCreep:
+(CGPoint)position;
+- (void)updateStatus; // update position, HP, special effect.
+- (void)hitByProjectile:(ETDProjectile)projectile;
+
+API ETDTower: 
+- (BOOL)isPositionInsideAttackRange:(CGPoint)pos;
+- (void)updateStatus; 
+- (ETDProjectile)attackCreep:(ETDCreep)target;
+
+
+API ETDViewController:
+- (void)addSubviewToMainView:(UIView)view
+
+Tuan : Iplement projectile, engine.
+Classes: ETDProjectile, ETDGameEngine
+- Projectile animation (now we don't have yet, but just prepare for future)
+- Game Engine???
+
+API ETDProjectile:
+- (void)updateStatus; // update position
+- (void)initWithOfType:(kProjectileType)type Position:(CGPoint)point withTarget:(ETDCreep)target;
+
+API ETDGameEngine: Singleton
+- (void)addObjectToGameLogic:(id)object;
+- (void)removeFromGameLogic:(id)object;
+
