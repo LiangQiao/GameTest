@@ -9,5 +9,5 @@
 #import "ETDGameEngine.h"
 
 @implementation ETDGameEngine
-Hello
+
 @end
